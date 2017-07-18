@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "blogdown::new_site() \nblogdown::serve_site()",
+    "created" : 1500380482506.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "830215758",
+    "id" : "FD5DF290",
+    "lastKnownWriteTime" : 4294967302,
+    "last_content_update" : 1500380494525,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
