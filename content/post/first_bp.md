@@ -120,7 +120,7 @@ I wanted to see whether this is also the case for restaurants in Chicago.
 ####Back to initial analysis
 If the number of of result=fail & number of of result=pass w. conditions together is greater than the number of result=pass, we can assume that food inspections have not much effect in improving environment of the food establishments. Then, restaurants with the history of failure in passing food inspection will likely be doing it again. 
 
-![Number of Food Inspections by Results](/Users/danachoi/Dropbox/foodinspect/results_bar_graph.png)
+![Number of Food Inspections by Results](/results_bar_graph.png)
 *NA includes inspecton results marked as "business not located", "out of business", "no entry", or "not ready".
 
 In this histogram, however, we see that the number of passes(and passes with conditions) are far greater than the number of fails. 
