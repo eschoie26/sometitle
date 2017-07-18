@@ -1,18 +1,13 @@
+
 ---
 title: "Food Inspection Result Prediction"
 author: "Dana Choi"
-date: "18 July 2016"
-output: html_document
-runtime: shiny
+date: 2017-07-18T13:09:13-06:00
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+#My first ever project in R 
 
-##My first ever project in R 
-
-###Introduction and Background (plus a little bit about me)
+##Introduction and Background (plus a little bit about me)
 I am a food enthusiast.
 I find joy in eating and cooking. If I were to choose one eccentric job for life, I  would choose to be a content creator on Youtube and just film myself eating and cooking. 
 So, as you can see, I love food. 
@@ -105,7 +100,6 @@ Unsurprisingly, this data set was HUGE (151209 rows).  While Chicago Data Portal
 
 So, as my final project for I_Xperience Data Science class, I’ve set an ambitious goal of making this process easier for local residents and visitors in Chicago. 
 
-###Preliminary analysis 
 But before we do that, we should first check whether this information (history of restaurant's inspection results) is significant or not and if so, how. 
 So, what can this history of inspection results tell us? Should we give second chance for restaurants with a history of one or more failure in passing inspection? 
 
@@ -113,42 +107,35 @@ Well, Canada’s biggest analysis of public health inspection reports from natio
 
 I wanted to see whether this is also the case for restaurants in Chicago. 
 
-####Back to initial analysis
+##Preliminary analysis 
 If the number of of result=fail & number of of result=pass w. conditions together is greater than the number of result=pass, we can assume that food inspections have not much effect in improving environment of the food establishments. Then, restaurants with the history of failure in passing food inspection will likely be doing it again. 
 
 ![Number of Food Inspections by Results](/results_bar_graph.png)
+
 *NA includes inspecton results marked as "business not located", "out of business", "no entry", or "not ready".
 
 In this histogram, however, we see that the number of passes(and passes with conditions) are far greater than the number of fails. 
 
-####Hypothesis 
+##Hypothesis 
 So, I hypothesize that food inspections have significant effect on improving the quality of food establishments' environment. 
 I hope to not see the same problem occuring in Chicago as in Canada. 
 
-###Models, Analysis, and Predictions 
+##Models, Analysis, and Predictions 
 
-####Geom Point
-```{plot}
+###Geom Point
 
-```
+###Logistic Model
 
-####Linear Model
-```{linear model}
+###SVM
 
 
-```
-
-####Decision Tree
-```{decision tree}
-```
-
-####Cross Validation 
+##Cross Validation 
 
 
-###Conclusion
+##Conclusion
 
 
-###Sources
+##Sources
 http://digitaledition.chicagotribune.com/tribune/article_popover.aspx?guid=fffb81a2-3a38-4481-975c-d163e7ee9ba8
 https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/data
 http://www.cbc.ca/news/health/restaurant-inspections-at-national-chains-uncover-repeated-major-violations-1.2605475
